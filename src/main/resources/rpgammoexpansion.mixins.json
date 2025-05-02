@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.prizowo.rpgammoexpansion.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "rpgammoexpansion.refmap.json",
+  "mixins": [
+    "GunDataMixin",
+    "RpgItemMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
